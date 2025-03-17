@@ -170,3 +170,7 @@ class TextDesintegrator {
 const h1 = document.querySelectorAll("h1 span");
 
 h1.forEach((el) => new TextDesintegrator(el));
+
+function irAPagina() {
+  window.location.href = "https://bixgis.github.io/Cumple_Lore1/"; 
+}
